@@ -17,7 +17,7 @@ attr_accessor :name, :songs, :song_count, :song
 
   def songs
     @songs
-  end
+  end 
 
   def add_song_by_name(name)
     @@song_count = @@song_count + 1
